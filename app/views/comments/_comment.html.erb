@@ -1,0 +1,14 @@
+
+<p>
+<strong>Comment Title</strong><br>
+<%= comment.name %>
+
+
+<p>
+<strong>Comment Body:</strong><br>
+<%= comment.body %>
+</p>
+
+<p><%= link_to 'delete', [comment.post, comment], method: :delete, data: {confirm: 'Are you sure'} %></p>
+
+
