@@ -14,4 +14,9 @@
  *= require_self
  */
 
+ .lightbg {
+    background-color: { rgba(239, 240, 240, 0.38);
+    padding: 60px 10px;
+
+  }
  
