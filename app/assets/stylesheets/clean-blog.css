@@ -152,6 +152,10 @@ hr.small {
 .header2 {
   background-image: url("post-bg.jpg") !important;
 }
+
+.header3 {
+  background-image: url("contact-bg.jpg") !important;
+}
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
