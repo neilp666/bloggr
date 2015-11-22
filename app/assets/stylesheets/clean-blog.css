@@ -145,20 +145,23 @@ hr.small {
 }
 
 
-.header1 {
-  background-image: url("home-bg.jpg") !important;
+.header4 {
+
+
+  background-image: url('https://dl.dropboxusercontent.com/s/lcy96ptuuxjwn5q/about-bg.jpg') !important;
 }
 
 .header2 {
-  background-image: url("post-bg.jpg") !important;
+  background-image: url('https://d1.dropboxusercontent.com/s/ii5v8x855g88wnr/post-bg.jpg') !important;
+
 }
 
 .header3 {
-  background-image: url("contact-bg.jpg") !important;
+  background-image: url('https://d1.dropboxusercontent.com/s/0se839acw1fnz7t/contact-bg.jpg') !important;
 }
 
-.header4 {
-  background-image: url("about-bg.jpg") !important;
+.header1 {
+  background-image: url('https://dl.dropboxusercontent.com/s/zf6z078vg4wawn4/home-bg.jpg') !important;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
