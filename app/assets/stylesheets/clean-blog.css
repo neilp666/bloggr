@@ -134,7 +134,7 @@ hr.small {
 }
 .intro-header {
   
-  background-color: #808080;
+ 
   background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -146,22 +146,20 @@ hr.small {
 
 
 .header4 {
-
-
-  background: url('https://dl.dropboxusercontent.com/s/lcy96ptuuxjwn5q/about-bg.jpg') !important;
+  background: url('https://dl.dropboxusercontent.com/s/lcy96ptuuxjwn5q/about-bg.jpg');
 }
 
 .header2 {
-  background: url('https://d1.dropboxusercontent.com/s/ii5v8x855g88wnr/post-bg.jpg') !important;
+  background: url('https://dl.dropboxusercontent.com/s/ii5v8x855g88wnr/post-bg.jpg');
 
 }
 
 .header3 {
-  background: url('https://d1.dropboxusercontent.com/s/0se839acw1fnz7t/contact-bg.jpg') !important;
+  background: url('https://dl.dropboxusercontent.com/s/0se839acw1fnz7t/contact-bg.jpg');
 }
 
 .header1 {
-  background-image: url('https://dl.dropboxusercontent.com/s/zf6z078vg4wawn4/home-bg.jpg') !important;
+  background: url('https://dl.dropboxusercontent.com/s/zf6z078vg4wawn4/home-bg.jpg');
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
