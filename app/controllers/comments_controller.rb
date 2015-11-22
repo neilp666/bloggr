@@ -1,4 +1,6 @@
 class CommentsController < ApplicationController
+  before_action :find_comments, only: [:create, :destroy]
+
 
 
   def create 
@@ -10,7 +12,6 @@ class CommentsController < ApplicationController
   end
 
   def destroy
-    @post = Post.find(params[:post_id])
     @comment = @post.comments.find(params[:id])
     @comment.destroy
 
@@ -26,6 +27,7 @@ class CommentsController < ApplicationController
   end
 
   def find_comments
+    @post = Post.find(params[:post_id])
   end
 
 
