@@ -1,21 +1,36 @@
-<% if @post.errors.any? %>
-  <ol>
-   <% @post.errors.full_messages.each do |message| %>
-    <li><%= message %></li>
-    <% end %>
-  </ol>
-<% end %>
 
+                <%= form_for @post do |f| %>
 
-<%= form_for @post do |f| %>
+                <% if @post.errors.any? %>
+                    <ol>
+                     <% @post.errors.full_messages.each do |message| %>
+                      <li><%= message %></li>
+                      <% end %>
+                    </ol>
+                  <% end %>
 
-  <%= f.label :title %><br>
-  <%= f.text_field :title %><br>
-
-  <%= f.label :body %><br>
-  <%= f.text_area :body %><br>
-
-  <%= f.submit %>
-
-<% end %>
-
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <%= f.label :title %><br>
+                            
+                            <%= f.text_field :title, class: "form-control", placeholder: "title" %>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                   
+                    
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                             <%= f.label :body %>
+                              <%= f.text_area :body, class: "form-control", placeholder: "Body" %>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                             <%= f.submit class: "btn btn-default" %>
+                        </div>
+                    </div>
+                <% end %>
